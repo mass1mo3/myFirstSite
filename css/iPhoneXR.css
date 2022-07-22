@@ -1,0 +1,249 @@
+@import url('nullystyle.css');
+@import url('fonts.css');
+
+
+* {
+font-family: 'Gotham Pro';
+max-width: 415px;
+}
+
+#header {
+height: 56px;
+background-color: #000000;
+color: rgb(255, 255, 255);
+}
+
+.container {
+display: flex;
+justify-content: space-between;
+margin: 0 5px 0 5px;
+overflow: hidden;
+}
+
+.logo {
+padding-top: 25%;
+padding-left: 5px;
+font-size: 18px;
+font-family: 'Gotham Pro Bold';
+white-space: nowrap;
+}
+
+.logo-text {
+display: inline;
+margin-left: -7px;
+}
+/* .logo::before {
+content: '';
+background: url('../img/Rectangle6.png') repeat-x;
+padding-bottom: 33px;
+padding-left: 16px;
+position: relative;
+top: 2px;
+} */
+
+.logotype1 {
+height: 14.6px;
+margin: 0px -8px 0 0;
+}
+
+.logotype2 {
+height: 14.6px;
+margin: 0px 0 0 0px;
+}
+
+a:link {
+color: white;
+text-decoration: none;
+font-family: 'Gotham Pro Light';
+}
+
+a:visited {
+color: white;
+text-decoration: none;
+font-family: 'Gotham Pro Light';
+padding-top: 15px;
+font-size: 13px;
+font-weight: 700;
+font-family: 'Gotham Pro Bold';
+}
+
+#navbar {
+display: flex;
+padding-top: 0;
+font-size: 19px; 
+line-height: 5px;
+}
+
+#navbar li {
+margin-left: 7px;
+padding: 20px 10px 0 10px;
+white-space: nowrap;
+}
+
+#navbar li:last-child {
+margin-left: -5px;
+}
+
+.header {
+margin-bottom: 0;
+}
+
+.main {
+margin:0;
+line-height: 0;
+}
+
+.main-top {
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+line-height: 0;
+}
+
+.main-model {
+margin-top: 10%;
+padding-left: 30px;
+}
+
+.main-model h1 {
+text-align: center;
+font-size: 40px;
+margin-bottom: 25%;
+}
+
+.main-model p {
+text-align: center;
+font-size: 30px;
+margin-bottom: 25%;
+}
+
+.main-model button {
+margin-left: 30%;
+margin-bottom: 10%;
+}
+.main-photo {
+width: 100%;
+margin-left: -45px;
+margin-bottom: 40px;
+}
+.main-photo img {
+position: static;
+width: 130%;
+}
+.footer {
+background-color: #E7345F;
+flex-wrap: wrap;
+margin-top: 2px;
+margin: -60px;
+padding: 0;
+padding-top: 12px;
+padding-left: 5px;
+min-width: 415px;
+text-align: center;
+min-height: 5%;
+}
+
+.main::before {
+visibility: hidden;
+}
+
+#max-speed {
+position: static;
+padding: 0;
+min-width: 24%;
+}
+
+#accelartion {
+position: static;
+padding: 0;
+min-width: 24%;
+margin-left: 0;
+}
+
+#weight {
+position: static;
+padding: 0;
+min-width: 24%;
+margin-left: 0;
+}
+
+#scroll {
+position: absolute;
+width: 10%;
+text-align: center;
+bottom: 5%;
+left: 50%;
+animation-name: arrow;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: normal;
+}
+
+@keyframes arrow {
+0%{
+bottom: 25%;
+}
+50%{
+bottom: 27%;
+}
+100%{
+bottom: 25%;
+}
+}
+
+#scroll p {
+color: #fff;
+text-align: center;
+transform: rotate(-90deg);
+position: relative;
+bottom: 40%;
+left: -41%;
+font-size: 7px;
+}
+
+#scroll img {
+color: #fff;
+text-align: center;
+transform: rotate(360deg);
+position: relative;
+bottom: 35%;
+left: -30%;
+}
+
+.feature {
+color: rgb(216, 210, 210);
+}
+
+#color {
+position: static;
+padding: 0;
+min-width: 24%;
+margin-left: 0;
+}
+
+.items {
+margin-top: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.standart {
+padding-bottom: 20px;
+}
+
+.expert {
+margin-top: 20px;
+padding-bottom: 30px;
+}
+
+.vip {
+margin-top: 20px;
+padding-bottom: 30px;
+}
+
+button {
+border-radius: 5px;
+}
